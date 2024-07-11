@@ -1,6 +1,6 @@
 {
   "name": "@jungtaeinn/nextjs-boilerplate-app",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": false,
   "scripts": {
     "dev": "next dev",
@@ -46,5 +46,16 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
-  }
+  },
+  "keywords": [
+    "boilerplate",
+    "nextjs",
+    "react",
+    "typescript",
+    "javascript",
+    "tailwind",
+    "storybook",
+    "docker",
+    "config"
+  ]
 }
