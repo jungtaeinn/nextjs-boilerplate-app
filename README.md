@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Boilerplate App
 
-## Getting Started
 
-First, run the development server:
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![React](https://img.shields.io/badge/react-18-blue.svg) ![Next.js](https://img.shields.io/badge/next.js-14.2.4-green.svg) ![TypeScript](https://img.shields.io/badge/typescript-5-blue.svg) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-3.4.1-blue.svg) ![Docker](https://img.shields.io/badge/docker-26.1.4-blue.svg)
+
+This is a comprehensive Next.js boilerplate project designed to kickstart your development with React and Next.js. It incorporates best practices and modern tools to ensure a high-quality foundation for building scalable and maintainable web applications.
+
+## 🚀 Technologies Used
+
+- **Programming Languages**: TypeScript, JavaScript
+- **Framework**: Next.js for React
+- **Styling**: Tailwind CSS
+- **State Management**: React-query (optional)
+- **Package Manager**: npm
+- **Linting and Formatting**: ESLint, Prettier
+- **Testing**: Jest, React Testing Library (optional)
+- **Containerization**: Docker
+
+## 📋 Prerequisites
+
+Ensure you have the following installed before proceeding:
+
+- Node.js (v18 or later)
+- npm (v7 or later)
+
+## 🛠 Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+git clone https://github.com/jungtaeinn/nextjs-boilerplate-app.git
