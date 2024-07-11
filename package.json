@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "docker:build": "docker build -t nextjs-boilerplate-app .",
+    "docker:build:prod": "docker build -t nextjs-boilerplate-app:prod .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "format": "prettier -w app/**/*"
@@ -29,6 +31,8 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
     "eslint-plugin-storybook": "^0.8.0",
